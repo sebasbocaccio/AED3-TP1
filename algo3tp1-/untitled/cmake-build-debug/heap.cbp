@@ -8,200 +8,194 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug"/>
+				<Option working_dir="/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug"/>
+				<Option working_dir="/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug"/>
+				<Option working_dir="/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest">
-				<Option output="/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug"/>
+				<Option output="/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtest"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest/fast">
-				<Option output="/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug"/>
+				<Option output="/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtest/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="correrTests">
-				<Option output="/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/correrTests" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug"/>
+				<Option output="/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/correrTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 correrTests"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 correrTests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="correrTests/fast">
-				<Option output="/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/correrTests" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug"/>
+				<Option output="/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/correrTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 correrTests/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 correrTests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main">
-				<Option output="/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug"/>
+				<Option output="/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtest_main"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main/fast">
-				<Option output="/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug"/>
+				<Option output="/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="correrValgrind">
-				<Option working_dir="/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug"/>
+				<Option working_dir="/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 correrValgrind"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 correrValgrind"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/agus/FACU/Algo\ 3\ Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/sebasbocaccio/CLionProjects/untitled/src/main.cpp">
+		<Unit filename="/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/src/main.cpp">
 			<Option target="correrTests"/>
 		</Unit>
-		<Unit filename="/home/sebasbocaccio/CLionProjects/untitled/src/main.h">
+		<Unit filename="/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/src/main.h">
 			<Option target="correrTests"/>
 		</Unit>
-		<Unit filename="/home/sebasbocaccio/CLionProjects/untitled/tests/gtest-1.8.1/gtest-all.cc">
+		<Unit filename="/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/tests/gtest-1.8.1/gtest-all.cc">
 			<Option target="gtest"/>
 		</Unit>
-		<Unit filename="/home/sebasbocaccio/CLionProjects/untitled/tests/gtest-1.8.1/gtest_main.cc">
+		<Unit filename="/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/tests/gtest-1.8.1/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="/home/sebasbocaccio/CLionProjects/untitled/tests/tests_colaprior.cpp">
+		<Unit filename="/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/tests/tests_colaprior.cpp">
 			<Option target="correrTests"/>
 		</Unit>
-		<Unit filename="/home/sebasbocaccio/CLionProjects/untitled/CMakeLists.txt">
+		<Unit filename="/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

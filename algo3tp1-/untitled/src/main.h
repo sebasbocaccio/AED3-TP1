@@ -12,7 +12,8 @@ struct local{
 };
 
 int max_NPM_FB(vector<local> &aglomerado,int indice,int beneficio,int contaminacion,vector<int> locales_index);
-int max_NPM_FB_anterior(vector<local> &aglomerado,int indice,int beneficio,int contaminacion);
-int main();
+int max_NPM_BT(vector<local> &aglomerado,int indice,int beneficio,int contaminacion);
+int maximoBeneficioFuturo(vector<local> &aglomerado,int indice);
+int mainsito();
 
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sebasbocaccio/CLionProjects/untitled/tests/gtest-1.8.1/gtest.h
+/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/tests/gtest-1.8.1/gtest.h
 limits
 -
 ostream
@@ -148,19 +148,19 @@ vector
 tuple
 -
 absl/strings/string_view.h
-/home/sebasbocaccio/CLionProjects/untitled/tests/gtest-1.8.1/absl/strings/string_view.h
+/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/tests/gtest-1.8.1/absl/strings/string_view.h
 absl/types/optional.h
-/home/sebasbocaccio/CLionProjects/untitled/tests/gtest-1.8.1/absl/types/optional.h
+/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/tests/gtest-1.8.1/absl/types/optional.h
 absl/types/variant.h
-/home/sebasbocaccio/CLionProjects/untitled/tests/gtest-1.8.1/absl/types/variant.h
+/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/tests/gtest-1.8.1/absl/types/variant.h
 iosfwd
 -
 vector
 -
 
-/home/sebasbocaccio/CLionProjects/untitled/tests/gtest-1.8.1/gtest_main.cc
+/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/tests/gtest-1.8.1/gtest_main.cc
 stdio.h
 -
 gtest.h
-/home/sebasbocaccio/CLionProjects/untitled/tests/gtest-1.8.1/gtest.h
+/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/tests/gtest-1.8.1/gtest.h
 

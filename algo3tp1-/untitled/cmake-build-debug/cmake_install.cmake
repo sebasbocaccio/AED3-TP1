@@ -1,4 +1,4 @@
-# Install script for directory: /home/sebasbocaccio/CLionProjects/untitled
+# Install script for directory: /home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sebasbocaccio/CLionProjects/untitled/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

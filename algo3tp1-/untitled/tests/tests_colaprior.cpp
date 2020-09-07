@@ -17,6 +17,18 @@ TEST(ColaPrior, vacio) {
     int resultado = max_NPM_FB(locales, 0,0,0,vacio);
     ASSERT_EQ(resultado, 15);
 }
+
+TEST(ColaPrior, factibilidad) {
+    vector<local> locales;
+    for (int i = 0; i < 5; i++) {
+        local temporal;
+        temporal.befenicio = 2 * i + 1;
+        temporal.contagio = i * i;
+        locales.push_back(temporal);
+    }
+    int resultado = max_NPM_BT(locales, 0, 0, 0);
+    ASSERT_EQ(resultado, 15);
+}
 /*
 TEST(ColaPrior, encolarUno) {
     ColaPrior<int> q;

@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/sebasbocaccio/CLionProjects/untitled/tests/gtest-1.8.1/gtest-all.cc
+/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/tests/gtest-1.8.1/gtest-all.cc
 gtest.h
-/home/sebasbocaccio/CLionProjects/untitled/tests/gtest-1.8.1/gtest.h
+/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/tests/gtest-1.8.1/gtest.h
 ctype.h
 -
 math.h
@@ -114,13 +114,13 @@ windows.h
 crt_externs.h
 -
 absl/debugging/failure_signal_handler.h
-/home/sebasbocaccio/CLionProjects/untitled/tests/gtest-1.8.1/absl/debugging/failure_signal_handler.h
+/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/tests/gtest-1.8.1/absl/debugging/failure_signal_handler.h
 absl/debugging/stacktrace.h
-/home/sebasbocaccio/CLionProjects/untitled/tests/gtest-1.8.1/absl/debugging/stacktrace.h
+/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/tests/gtest-1.8.1/absl/debugging/stacktrace.h
 absl/debugging/symbolize.h
-/home/sebasbocaccio/CLionProjects/untitled/tests/gtest-1.8.1/absl/debugging/symbolize.h
+/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/tests/gtest-1.8.1/absl/debugging/symbolize.h
 absl/strings/str_cat.h
-/home/sebasbocaccio/CLionProjects/untitled/tests/gtest-1.8.1/absl/strings/str_cat.h
+/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/tests/gtest-1.8.1/absl/strings/str_cat.h
 crt_externs.h
 -
 errno.h
@@ -216,7 +216,7 @@ ostream
 string
 -
 
-/home/sebasbocaccio/CLionProjects/untitled/tests/gtest-1.8.1/gtest.h
+/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/tests/gtest-1.8.1/gtest.h
 limits
 -
 ostream
@@ -358,11 +358,11 @@ vector
 tuple
 -
 absl/strings/string_view.h
-/home/sebasbocaccio/CLionProjects/untitled/tests/gtest-1.8.1/absl/strings/string_view.h
+/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/tests/gtest-1.8.1/absl/strings/string_view.h
 absl/types/optional.h
-/home/sebasbocaccio/CLionProjects/untitled/tests/gtest-1.8.1/absl/types/optional.h
+/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/tests/gtest-1.8.1/absl/types/optional.h
 absl/types/variant.h
-/home/sebasbocaccio/CLionProjects/untitled/tests/gtest-1.8.1/absl/types/variant.h
+/home/agus/FACU/Algo 3 Tp1/algo3tp1-/algo3tp1-/untitled/tests/gtest-1.8.1/absl/types/variant.h
 iosfwd
 -
 vector

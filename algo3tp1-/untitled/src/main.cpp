@@ -2,7 +2,10 @@
 #include "main.h"
 int cantLocales=5;
 int maximoContagio = 20;
-int maximoBefenicioActual=0;
+int maximoBefenicioActual = 0;
+bool factibilidad = false;
+bool optimalidad = false;
+
 
 
 int max_NPM_FB(vector<local> &aglomerado,int indice,int beneficio,int contaminacion,vector<int> locales_index){
@@ -26,25 +29,45 @@ int max_NPM_FB(vector<local> &aglomerado,int indice,int beneficio,int contaminac
 
 
 }
+int maximoBeneficioFuturo(vector<local> &aglomerado,int indice){
+    int res = 0;
+    while(indice < aglomerado.size()){
+        res += aglomerado[indice].befenicio;
+        indice = indice + 2;
+    }
+    return res;
+}
 
-int max_NPM_BT(vector<local> &aglomerado,int indice,int beneficio,int contaminacion){
+
+int max_NPM_BT(vector<local> &aglomerado,int indice,int beneficio,int contaminacion) {
 
     //Si llegue al final de mi arbol
-    if(indice >= aglomerado.size()) return contaminacion > maximoContagio ? -1 : max(beneficio,maximoBefenicioActual);
+    if (indice >= aglomerado.size()) {
+        if (contaminacion > maximoContagio) {
+            return -1;
+        } else {
+            maximoBefenicioActual = max(beneficio, maximoBefenicioActual);
+            return maximoBefenicioActual;
+        }
+    }
+        //Poda Factibilidad.
+        if (factibilidad) {
+            if (contaminacion > maximoContagio)
+                return -1;
+        }
+        //Poda Optimalidad.
+        if (optimalidad) {
+            if (maximoBefenicioActual > maximoBeneficioFuturo(aglomerado, indice) + beneficio) return -1;
+        }
 
-    //Poda Factibilidad.
-
-    //Poda Optimalidad.
-
-    //Si me falta ramificar
-    return max(max_NPM_BT(aglomerado,indice+2,beneficio+aglomerado[indice].befenicio,contaminacion+aglomerado[indice].contagio),
-               max_NPM_BT(aglomerado,indice+1,beneficio,contaminacion));
+        //Si me falta ramificar
+        return max(max_NPM_BT(aglomerado, indice + 2, beneficio + aglomerado[indice].befenicio,
+                              contaminacion + aglomerado[indice].contagio),
+                   max_NPM_BT(aglomerado, indice + 1, beneficio, contaminacion));
 
 
 }
-
-int mainsito() {
-
+int mainsito(){
 
     //cin >> cantLocales >> maximoContagio ;
     vector<local> aglomerado;
