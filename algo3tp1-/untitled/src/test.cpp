@@ -85,7 +85,7 @@ int NPM_PD(vector<vector<int>>& matriz,vector<local> &aglomerado,int indice,int 
     if(matriz[indice][contaminacion] == -1){
         if (contaminacion >= aglomerado[indice].contagio){
             matriz[indice][contaminacion]= max(NPM_PD(matriz,aglomerado,indice+1,contaminacion),
-                                               NPM_PD(matriz,aglomerado,indice+2,contaminacion-aglomerado[indice].contagio) + aglomerado[indice].beneficio); 
+                                               NPM_PD(matriz,aglomerado,indice+2,contaminacion-aglomerado[indice].contagio) + aglomerado[indice].befenicio); 
         } 
         else{
             matriz[indice][contaminacion]= NPM_PD(matriz,aglomerado,indice+1,contaminacion);
