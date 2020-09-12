@@ -9,11 +9,13 @@ struct local{
     int contagio;
 };
 
+
 int cantLocales;
 int maximoContagio;
 int maximoBefenicioActual = 0;
 bool factibilidad = false;
 bool optimalidad = false;
+
 
 
 
@@ -76,12 +78,41 @@ int max_NPM_BT(vector<local> &aglomerado,int indice,int beneficio,int contaminac
 
 
 }
+
+
+int NPM_PD(vector<vector<int>>& matriz,vector<local> &aglomerado,int indice,int contaminacion){
+    if(indice >= aglomerado.size()+1){return 0;}
+    if(matriz[indice][contaminacion] == -1){
+        if (contaminacion >= aglomerado[indice].contagio){
+            matriz[indice][contaminacion]= max(NPM_PD(matriz,aglomerado,indice+1,contaminacion),
+                                               NPM_PD(matriz,aglomerado,indice+2,contaminacion-aglomerado[indice].contagio) + aglomerado[indice].beneficio); 
+        } 
+        else{
+            matriz[indice][contaminacion]= NPM_PD(matriz,aglomerado,indice+1,contaminacion);
+        }
+
+    }
+    return matriz[indice][contaminacion];
+    
+}
+
+int max_NPM_PD(vector<local> &aglomerado,int contaminacion){
+    
+    //Creo la matriz que guarda lo mejor que puedo hacer
+    
+    vector<vector<int>> v(aglomerado.size()+1, vector<int>(contaminacion+1,-1));
+    return NPM_PD(v,aglomerado,0,contaminacion);
+    
+
+    // 
+
+}
 int main(int argc, char** argv){
 
     cin >> cantLocales >> maximoContagio ;
 	map<string, string> algoritmos_implementados = {
 		{"FB", "Fuerza Bruta"}, {"BT", "Backtracking con podas"}, {"BT-F", "Backtracking con poda por factibilidad"}, 
-		{"BT-O", "Backtracking con poda por optimalidad"}, {"DP", "Programacion dinámica"}
+		{"BT-O", "Backtracking con poda por optimalidad"}, {"DP", "Programacion dinámica"} 
 	};
 
 	// Verificar que el algoritmo pedido exista.
@@ -133,7 +164,7 @@ int main(int argc, char** argv){
 	}
 	else if (algoritmo == "DP")
 	{
-		
+	   resultado = max_NPM_PD(aglomerado,maximoContagio);	
 	}
 
   
