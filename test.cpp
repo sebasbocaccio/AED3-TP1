@@ -44,7 +44,7 @@ int maximoBeneficioFuturo(vector<local> &aglomerado,int indice){
     int res = 0;
     while(indice < aglomerado.size()){
         res += aglomerado[indice].befenicio;
-        indice = indice + 2;
+        indice = indice + 1;
     }
     return res;
 }
@@ -68,8 +68,14 @@ int max_NPM_BT(vector<local> &aglomerado,int indice,int beneficio,int contaminac
         }
         //Poda Optimalidad.
         if (optimalidad) {
-            if (maximoBefenicioActual > maximoBeneficioFuturo(aglomerado, indice) + beneficio) return -1;
+        	
+            if (maximoBefenicioActual > maximoBeneficioFuturo(aglomerado, indice) + beneficio){ 
+            	printf("%s", "entre a optimalidad, beneficioAFuturo:");
+            	return -1;
+            }
         }
+
+
 
         //Si me falta ramificar
         return max(max_NPM_BT(aglomerado, indice + 2, beneficio + aglomerado[indice].befenicio,
@@ -78,6 +84,58 @@ int max_NPM_BT(vector<local> &aglomerado,int indice,int beneficio,int contaminac
 
 
 }
+
+int max_NPM_BT(vector<local> &aglomerado,int indice,int beneficio,int contaminacion, int beneficioAFuturo) {
+	 //Si llegue al final de mi arbol
+    if (indice >= aglomerado.size() - 1) {
+        if (contaminacion > maximoContagio) {
+            return -1;
+        } else {
+            if(contaminacion + aglomerado[indice].contagio > maximoContagio){
+            	
+            	return -1;
+            }
+
+            maximoBefenicioActual = max(beneficio + aglomerado[indice].befenicio, maximoBefenicioActual);
+            return maximoBefenicioActual;
+        }
+        
+    }
+        //Poda Factibilidad.
+        if (factibilidad) {
+            if (contaminacion > maximoContagio)
+                return -1;
+        }
+        //Poda Optimalidad.
+        if (optimalidad) {
+            if (maximoBefenicioActual > beneficioAFuturo + beneficio){
+        		printf("%s", "entre a optimalidad, beneficioAFuturo:");
+        		printf("%i\n", beneficioAFuturo - aglomerado[indice].befenicio);
+            	return -1;
+        	}
+        }
+
+        
+
+        //Si me falta ramificar
+        return max(max_NPM_BT(aglomerado, indice + 2, beneficio + aglomerado[indice].befenicio, contaminacion + aglomerado[indice].contagio, 
+													  beneficioAFuturo - aglomerado[indice].befenicio - aglomerado[indice + 1].befenicio),
+            		max_NPM_BT(aglomerado, indice + 1, beneficio, contaminacion, beneficioAFuturo - aglomerado[indice].befenicio));
+}
+
+/*
+int maxBeneficioAFuturo = maximoBeneficioFuturo(aglomerado, 0);
+
+func{
+	if(optimalidad) {
+            if (maximoBefenicioActual > maxBeneficioAFuturo - beneficio) return -1;
+    }
+    return max(max_NPM_BT(aglomerado, indice + 2, beneficio + aglomerado[indice].befenicio,
+                              contaminacion + aglomerado[indice].contagio),
+                   max_NPM_BT(aglomerado, indice + 1, beneficio, contaminacion));
+}
+
+*/
 
 
 int NPM_PD(vector<vector<int>>& matriz,vector<local> &aglomerado,int indice,int contaminacion){
@@ -160,7 +218,7 @@ int main(int argc, char** argv){
 	{
 		factibilidad = false;
 		optimalidad = true;
-		resultado = max_NPM_BT(aglomerado, 0,0,0);
+		resultado = max_NPM_BT(aglomerado, 0,0,0, maximoBeneficioFuturo(aglomerado, 0));
 	}
 	else if (algoritmo == "DP")
 	{
