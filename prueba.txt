@@ -1,0 +1,36 @@
+Experimento Factibilidad:
+aglomerado =  comercios de entrada.
+para los experimentos de back tracking de factibilidad pensamos aplicar un concepto de densidad W tal que la media
+del contagio de los elementos del anglomerado sea menor a maximoContagio/n con n = #aglomerado
+
+
+la instancia de los experimentos tendria la siguiente pinta:
+conjunto de comercios = {comercio0, comercio1,. . . . . . , comercioN} / comercioJ.contagio = J para todo J entre 0 y N
+
+algomerado estaria compuesto de todos los elemtos del conjunto de comercios pero con un orden aleatorio.
+
+y el W = la media de algomerado + N
+
+OPTIMALIDAD:
+vamos a utilizar la relacion beneficio/contagio. la idea seria que los comercios esten ordenados de forme decreciente en torno a la relacion beneficio contagio.
+
+aglomerado = [comercio0, comercio1,. . . . . . , comercioN] con 
+comercioJ.beneficio = N - J
+comercioJ.contagio  = J
+
+ y el W = la media de algomerado + N
+
+--------------------
+Experimentacion BT,
+-Pruebas de densidades altas y bajas, osea experimentos donde esperamos un comportamiento masomenos bueno y masomenos malo para el resultado
+-Mejor caso y peor caso para cada variable, optimalidad y factibilidad
+-Caso promedio mostrando los resultados de aplicar 1 o dos tipos de podas 
+
+
+Experimentos Dinamica:
+BTvsDinamica -> Peor,promedio y mejor caso BT, 
+             -> Comparar BT Y DN con W muy grandes para que la matriz sea muy grande.
+
+Dinamica solo-> Aumento en W y en N por separado y juntos (Compararlos con los O(N*W) 
+
+
