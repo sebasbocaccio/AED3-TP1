@@ -29,9 +29,9 @@ int max_NPM_FB(vector<local> &aglomerado,int indice,int beneficio,int contaminac
         //Chequeamos que esten a minimo 1 de distancia
         //Como sabemos que esta ordenado alcanza con fijarse que entre cada elemento la diferencia sea mayor a 1
         int tamano = locales_index.size()-1;
-            for (int i = 0; i < tamano ; i++) {
-                if (locales_index[i] + 1 == locales_index[i + 1]) return -1;
-            }
+        for (int i = 0; i < tamano ; i++) {
+            if (locales_index[i] + 1 == locales_index[i + 1]) return -1;
+        }
         return contaminacion > maximoContagio ? -1 : beneficio;
     }
 
@@ -64,66 +64,65 @@ int max_NPM_BT(vector<local> &aglomerado,int indice,int beneficio,int contaminac
             return maximoBeneficioActual;
         }
     }
-        //Poda Factibilidad.
-        if (factibilidad) {
-            if (contaminacion > maximoContagio)
-                return -1;
+    //Poda Factibilidad.
+    if (factibilidad) {
+        if (contaminacion > maximoContagio)
+            return -1;
+    }
+    //Poda Optimalidad.
+    if (optimalidad) {
+
+        if (maximoBeneficioActual > maximoBeneficioFuturo(aglomerado, indice) + beneficio){
+            //printf("%s", "entre a optimalidad, beneficioAFuturo:");
+            return -1;
         }
-        //Poda Optimalidad.
-        if (optimalidad) {
-        	
-            if (maximoBeneficioActual > maximoBeneficioFuturo(aglomerado, indice) + beneficio){ 
-            	printf("%s", "entre a optimalidad, beneficioAFuturo:");
-            	return -1;
-            }
-        }
+    }
 
 
 
-        //Si me falta ramificar
-        return max(max_NPM_BT(aglomerado, indice + 2, beneficio + aglomerado[indice].beneficio,
-                              contaminacion + aglomerado[indice].contagio),
-                   max_NPM_BT(aglomerado, indice + 1, beneficio, contaminacion));
+    //Si me falta ramificar
+    return max(max_NPM_BT(aglomerado, indice + 2, beneficio + aglomerado[indice].beneficio,
+                          contaminacion + aglomerado[indice].contagio),
+               max_NPM_BT(aglomerado, indice + 1, beneficio, contaminacion));
 
 
 }
 
 int max_NPM_BT(vector<local> &aglomerado,int indice,int beneficio,int contaminacion, int beneficioAFuturo) {
-	 //Si llegue al final de mi arbol
-    if (indice >= aglomerado.size() - 1) {
+    //Si llegue al final de mi arbol
+    if (indice >= aglomerado.size()) {
         if (contaminacion > maximoContagio) {
             return -1;
         } else {
-            if(contaminacion + aglomerado[indice].contagio > maximoContagio){
-            	
-            	return -1;
-            }
-
-            maximoBeneficioActual = max(beneficio + aglomerado[indice].beneficio, maximoBeneficioActual);
+            maximoBeneficioActual = max(beneficio, maximoBeneficioActual);
             return maximoBeneficioActual;
         }
-        
     }
-        //Poda Factibilidad.
-        if (factibilidad) {
-            if (contaminacion > maximoContagio)
-                return -1;
-        }
-        //Poda Optimalidad.
-        if (optimalidad) {
-            if (maximoBeneficioActual > beneficioAFuturo + beneficio){
-        		printf("%s", "entre a optimalidad, beneficioAFuturo:");
-        		printf("%i\n", beneficioAFuturo - aglomerado[indice].beneficio);
-            	return -1;
-        	}
-        }
+    //Poda Factibilidad.
+    if (factibilidad) {
+        if (contaminacion > maximoContagio)
+            return -1;
+    }
+    //Poda Optimalidad.
+    if (optimalidad) {
+//        printf("%s", "maximoBeneficioActual:");
+//        cout << maximoBeneficioActual << endl;
+//        printf("%s", "beneficioAFuturo:");
+//        printf("%i\n", beneficioAFuturo + beneficio);
 
-        
+        if (maximoBeneficioActual > beneficioAFuturo + beneficio){
+            //printf("%s", "entre a optimalidad, beneficioAFuturo:");
+            //printf("%i\n", beneficioAFuturo + beneficio);
+            return -1;
+        }
+    }
 
-        //Si me falta ramificar
-        return max(max_NPM_BT(aglomerado, indice + 2, beneficio + aglomerado[indice].beneficio, contaminacion + aglomerado[indice].contagio, 
-													  beneficioAFuturo - aglomerado[indice].beneficio - aglomerado[indice + 1].beneficio),
-            		max_NPM_BT(aglomerado, indice + 1, beneficio, contaminacion, beneficioAFuturo - aglomerado[indice].beneficio));
+
+
+    //Si me falta ramificar
+    return max(max_NPM_BT(aglomerado, indice + 1, beneficio, contaminacion, beneficioAFuturo - aglomerado[indice].beneficio),
+               max_NPM_BT(aglomerado, indice + 2, beneficio + aglomerado[indice].beneficio, contaminacion + aglomerado[indice].contagio,
+                          beneficioAFuturo - aglomerado[indice].beneficio - aglomerado[indice + 1].beneficio));
 }
 
 /*
@@ -154,45 +153,45 @@ int NPM_PD(vector<vector<int>>& matriz,vector<local> &aglomerado,int indice,int 
     if(matriz[indice][contaminacion] == -1){
         if (contaminacion >= aglomerado[indice].contagio){
             matriz[indice][contaminacion]= max(NPM_PD(matriz,aglomerado,indice+1,contaminacion),
-                                               NPM_PD(matriz,aglomerado,indice+2,contaminacion-aglomerado[indice].contagio) + aglomerado[indice].beneficio); 
-        } 
+                                               NPM_PD(matriz,aglomerado,indice+2,contaminacion-aglomerado[indice].contagio) + aglomerado[indice].beneficio);
+        }
         else{
             matriz[indice][contaminacion]= NPM_PD(matriz,aglomerado,indice+1,contaminacion);
         }
 
     }
     return matriz[indice][contaminacion];
-    
+
 }
 
 int max_NPM_PD(vector<local> &aglomerado,int contaminacion){
-    
+
     //Creo la matriz que guarda lo mejor que puedo hacer
-    
+
     vector<vector<int>> v(aglomerado.size()+1, vector<int>(contaminacion+1,-1));
     return NPM_PD(v,aglomerado,0,contaminacion);
-    
 
-    // 
+
+    //
 
 }
 int main(int argc, char** argv){
 
     cin >> cantLocales >> maximoContagio ;
-	map<string, string> algoritmos_implementados = {
-		{"FB", "Fuerza Bruta"}, {"BT", "Backtracking con podas"}, {"BT-F", "Backtracking con poda por factibilidad"}, 
-		{"BT-O", "Backtracking con poda por optimalidad"}, {"DP", "Programacion dinámica"} 
-	};
+    map<string, string> algoritmos_implementados = {
+            {"FB", "Fuerza Bruta"}, {"BT", "Backtracking con podas"}, {"BT-F", "Backtracking con poda por factibilidad"},
+            {"BT-O", "Backtracking con poda por optimalidad"}, {"DP", "Programacion dinámica"}
+    };
 
-	// Verificar que el algoritmo pedido exista.
-	if (argc < 2 || algoritmos_implementados.find(argv[1]) == algoritmos_implementados.end())
-	{
-		cerr << "Algoritmo no encontrado: " << argv[1] << endl;
-		cerr << "Los algoritmos existentes son: " << endl;
-		for (auto& alg_desc: algoritmos_implementados) cerr << "\t- " << alg_desc.first << ": " << alg_desc.second << endl;
-		return 0;
-	}
-	string algoritmo = argv[1];
+    // Verificar que el algoritmo pedido exista.
+    if (argc < 2 || algoritmos_implementados.find(argv[1]) == algoritmos_implementados.end())
+    {
+        cerr << "Algoritmo no encontrado: " << argv[1] << endl;
+        cerr << "Los algoritmos existentes son: " << endl;
+        for (auto& alg_desc: algoritmos_implementados) cerr << "\t- " << alg_desc.first << ": " << alg_desc.second << endl;
+        return 0;
+    }
+    string algoritmo = argv[1];
 
 
 
@@ -204,54 +203,53 @@ int main(int argc, char** argv){
         cin >> temporal.beneficio >> temporal.contagio;
         aglomerado.push_back(temporal);
     }
-    
-
-   int resultado = 0;
 
 
-   // Ejecutamos el algoritmo y obtenemos su tiempo de ejecución.
-	int optimum;
-	optimum = INFTY;
-	auto start = chrono::steady_clock::now();
-   if (algoritmo == "FB")
-	{
-		vector<int> vector_vacio;
-		resultado =  max_NPM_FB(aglomerado, 0,0,0,vector_vacio);	
-	}
-	else if (algoritmo == "BT")
-	{
-		factibilidad = false;
-		optimalidad = false;
-		resultado = max_NPM_BT(aglomerado, 0,0,0);
-	}
-	else if (algoritmo == "BT-F")
-	{
-		factibilidad = true;
-		optimalidad = false;
-		resultado = max_NPM_BT(aglomerado, 0,0,0);
-	}
-	else if (algoritmo == "BT-O")
-	{
-		factibilidad = false;
-		optimalidad = true;
-		resultado = max_NPM_BT(aglomerado, 0,0,0, maximoBeneficioFuturo(aglomerado, 0));
-	}
-	else if (algoritmo == "DP")
-	{
-	   resultado = max_NPM_PD(aglomerado,maximoContagio);	
-	}
+    int resultado = 0;
 
-	auto end = chrono::steady_clock::now();
-	double total_time = chrono::duration<double, milli>(end - start).count();
 
-	// Imprimimos el tiempo de ejecución por stderr.
-	clog << total_time << endl;
+    // Ejecutamos el algoritmo y obtenemos su tiempo de ejecución.
+    int optimum;
+    optimum = INFTY;
+    auto start = chrono::steady_clock::now();
+    if (algoritmo == "FB")
+    {
+        vector<int> vector_vacio;
+        resultado =  max_NPM_FB(aglomerado, 0,0,0,vector_vacio);
+    }
+    else if (algoritmo == "BT")
+    {
+        factibilidad = false;
+        optimalidad = false;
+        resultado = max_NPM_BT(aglomerado, 0,0,0);
+    }
+    else if (algoritmo == "BT-F")
+    {
+        factibilidad = true;
+        optimalidad = false;
+        resultado = max_NPM_BT(aglomerado, 0,0,0);
+    }
+    else if (algoritmo == "BT-O")
+    {
+        factibilidad = false;
+        optimalidad = true;
+        resultado = max_NPM_BT(aglomerado, 0,0,0, maximoBeneficioFuturo(aglomerado, 0));
+    }
+    else if (algoritmo == "DP")
+    {
+        resultado = max_NPM_PD(aglomerado,maximoContagio);
+    }
+
+    auto end = chrono::steady_clock::now();
+    double total_time = chrono::duration<double, milli>(end - start).count();
+
+    // Imprimimos el tiempo de ejecución por stderr.
+    clog << total_time << endl;
 
     // Imprimimos el resultado por stdout.
 
-  
+
     cout << resultado << endl;
 
     return 0;
 }
-
