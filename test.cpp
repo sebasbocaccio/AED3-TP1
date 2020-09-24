@@ -180,7 +180,7 @@ int main(int argc, char** argv){
     cin >> cantLocales >> maximoContagio ;
     map<string, string> algoritmos_implementados = {
             {"FB", "Fuerza Bruta"}, {"BT", "Backtracking con podas"}, {"BT-F", "Backtracking con poda por factibilidad"},
-            {"BT-O", "Backtracking con poda por optimalidad"}, {"DP", "Programacion dinámica"}
+            {"BT-O", "Backtracking con poda por optimalidad"}, {"BT-A", "Backtracking con ambas podas"} ,{"DP", "Programacion dinámica"}
     };
 
     // Verificar que el algoritmo pedido exista.
@@ -232,6 +232,12 @@ int main(int argc, char** argv){
     else if (algoritmo == "BT-O")
     {
         factibilidad = false;
+        optimalidad = true;
+        resultado = max_NPM_BT(aglomerado, 0,0,0, maximoBeneficioFuturo(aglomerado, 0));
+    }
+    else if (algoritmo == "BT-A")
+    {
+        factibilidad = true;
         optimalidad = true;
         resultado = max_NPM_BT(aglomerado, 0,0,0, maximoBeneficioFuturo(aglomerado, 0));
     }
