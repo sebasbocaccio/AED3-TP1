@@ -10,100 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43165e8d-1df2-476e-ab61-ea88d8a456d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Instancias.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Instancias.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plotter.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Plotter.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/correr-instancias.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/correr-instancias.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graficos/bt-complejidad.svg" beforeDir="false" afterPath="$PROJECT_DIR$/graficos/bt-complejidad.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graficos/bt-densidades.svg" beforeDir="false" afterPath="$PROJECT_DIR$/graficos/bt-densidades.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graficos/fb-correlacion.svg" beforeDir="false" afterPath="$PROJECT_DIR$/graficos/fb-correlacion.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-11.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-12.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-13.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-14.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-16.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-17.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-18.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-19.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-20.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-22.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-22.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-23.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-24.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-24.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-25.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-25.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-26.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-26.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-27.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-27.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-28.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-28.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-29.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-29.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-30.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-30.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-31.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-31.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-32.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-32.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-33.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-33.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-34.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-34.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-35.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-35.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-36.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-36.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-37.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-37.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-38.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-38.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-39.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-39.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-40.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-40.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-41.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-41.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-42.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-42.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-43.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-43.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-44.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-44.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-6.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-alta-factibilidad/BT-F-DA-9.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-11.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-12.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-13.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-14.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-16.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-17.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-18.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-19.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-20.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-22.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-22.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-23.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-24.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-24.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-25.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-25.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-26.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-26.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-27.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-27.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-28.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-28.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-29.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-29.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-30.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-30.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-31.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-31.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-32.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-32.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-33.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-33.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-34.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-34.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-35.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-35.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-36.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-36.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-37.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-37.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-38.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-38.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-39.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-39.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-40.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-40.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-41.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-41.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-42.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-42.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-43.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-43.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-44.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-44.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-6.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/densidad-media-factibilidad/BT-F-DA-9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graficos/bt-densidades.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graficos/bt-mejor-caso-factibilidad.png" beforeDir="false" afterPath="$PROJECT_DIR$/graficos/bt-mejor-caso-factibilidad.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resultados/resultado.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resultados/resultado.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,6 +49,7 @@
       <updated>1600742095147</updated>
       <workItem from="1600742097098" duration="7000" />
       <workItem from="1601016609198" duration="506000" />
+      <workItem from="1601748732412" duration="26000" />
     </task>
     <servers />
   </component>
